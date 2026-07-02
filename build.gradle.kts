@@ -65,6 +65,12 @@ dependencies {
     implementation("com.google.android.material:material:1.14.0-alpha09")
     implementation("com.hp:crcalc:1.0")
     implementation("com.github.woheller69:FreeDroidWarn:V1.+")
+    implementation("top.yukonga.miuix.kmp:miuix-ui-android:0.9.2")
+    implementation("top.yukonga.miuix.kmp:miuix-preference-android:0.9.2")
+    implementation("top.yukonga.miuix.kmp:miuix-icons-android:0.9.2")
+    implementation("top.yukonga.miuix.kmp:miuix-blur-android:0.9.2")
+    implementation("top.yukonga.miuix.kmp:miuix-squircle-android:0.9.2")
+    implementation("top.yukonga.miuix.kmp:miuix-navigation3-ui-android:0.9.2")
 }
 
 configure<GenerateBpPluginExtension> {
