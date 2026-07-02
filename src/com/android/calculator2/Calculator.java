@@ -67,6 +67,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
 import java.text.DecimalFormatSymbols;
+import org.woheller69.freeDroidWarn.FreeDroidWarn;
 
 public class Calculator extends AppCompatActivity
         implements OnTextSizeChangeListener, AlertDialogFragment.OnClickListener,
@@ -304,6 +305,7 @@ public class Calculator extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        FreeDroidWarn.showWarningOnUpgrade(this, BuildConfig.VERSION_CODE);
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_calculator);
