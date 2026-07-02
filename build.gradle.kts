@@ -64,6 +64,7 @@ dependencies {
     implementation("androidx.webkit:webkit:1.7.0-alpha02")
     implementation("com.google.android.material:material:1.14.0-alpha09")
     implementation("com.hp:crcalc:1.0")
+    implementation("com.github.woheller69:FreeDroidWarn:V1.+")
 }
 
 configure<GenerateBpPluginExtension> {
